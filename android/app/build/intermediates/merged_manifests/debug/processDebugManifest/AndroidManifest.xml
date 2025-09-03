@@ -12,14 +12,29 @@
         android:name="android.hardware.bluetooth_le"
         android:required="false" />
 
-    <!-- Legacy (API <31) -->
+    <!-- Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Bluetooth pre-31 -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
-    <!-- API 31+ runtime -->
+    <!-- Bluetooth 31+ -->
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+
+    <!-- Location needed for scan on API 26–30 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Foreground services -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+
+    <!-- Notifications (33+) -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <permission
@@ -37,7 +52,11 @@
         <service
             android:name="com.example.relay.RelayBleService"
             android:exported="false"
-            android:foregroundServiceType="connectedDevice|dataSync" />
+            android:foregroundServiceType="connectedDevice" />
+        <service
+            android:name="com.example.relay.CentralBackhaulService"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
 
         <activity
             android:name="com.example.relay.MainActivity"

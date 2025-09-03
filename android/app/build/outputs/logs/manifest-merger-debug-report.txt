@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-28:12
-INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-28:12
-INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-28:12
-INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-28:12
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:1:1-45:12
 MERGED from [androidx.activity:activity:1.8.2] /Users/christymaxwell/.gradle/caches/transforms-4/d82c1de5e7cf52c46959df01bbdd8fa9/transformed/jetified-activity-1.8.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/christymaxwell/.gradle/caches/transforms-4/de0fbb95a43db40cb5149b510b319fe7/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
@@ -85,33 +85,55 @@ ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/andro
 		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:3:62-86
 	android:name
 		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:3:17-61
+uses-permission#android.permission.INTERNET
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:3-64
+	android:name
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:3-76
+	android:name
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:20-74
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:3-65
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:3-65
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:20-63
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:20-63
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:3-71
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:3-71
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:20-69
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:20-69
 uses-permission#android.permission.BLUETOOTH_ADVERTISE
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:3-75
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:3-75
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:20-73
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:20-73
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:3-73
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:15:3-73
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:20-71
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:15:20-71
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:3-17:55
+	android:usesPermissionFlags
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:17:7-53
+	android:name
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:20-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:20:3-76
+	android:name
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:20:20-74
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:13:3-74
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:3-74
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:13:20-72
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:20-72
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:3-91
+	android:name
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:20-89
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:3-74
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:27:3-74
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:20-72
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:27:20-72
 application
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:3-27:17
-INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:3-27:17
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:3-44:17
+INJECTED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:3-44:17
 MERGED from [androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christymaxwell/.gradle/caches/transforms-4/bdd57ec33f3205acb9a9b471f2181f25/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -125,33 +147,41 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/christymaxwell/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:allowBackup
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:16-43
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:16-43
 	android:usesCleartextTraffic
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:44-80
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:44-80
 service#com.example.relay.RelayBleService
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:17:5-20:33
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:30:5-33:33
 	android:exported
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:20:7-31
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:33:7-31
 	android:foregroundServiceType
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:19:7-63
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:32:7-54
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:18:7-38
-activity#com.example.relay.MainActivity
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:21:5-26:16
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:31:7-38
+service#com.example.relay.CentralBackhaulService
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:34:5-37:33
 	android:exported
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:21:44-67
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:37:7-31
+	android:foregroundServiceType
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:36:7-54
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:21:15-43
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:35:7-45
+activity#com.example.relay.MainActivity
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:38:5-43:16
+	android:exported
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:38:44-67
+	android:name
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:38:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:22:7-25:23
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:39:7-42:23
 action#android.intent.action.MAIN
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:9-60
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:40:9-60
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:17-58
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:40:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:9-68
+ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:41:9-68
 	android:name
-		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:19-66
+		ADDED from /Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:41:19-66
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel

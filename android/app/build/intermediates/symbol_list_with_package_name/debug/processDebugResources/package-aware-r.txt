@@ -103,12 +103,15 @@ id action_text
 id actions
 id async
 id blocking
+id btnCentralStart
+id btnCentralStop
 id btnSave
 id btnStart
 id btnStop
 id burst
 id cap
 id chronometer
+id dest
 id dialog_button
 id edit_text_id
 id forever
@@ -116,6 +119,7 @@ id hide_ime_id
 id icon
 id icon_group
 id info
+id interval
 id italic
 id line1
 id line3

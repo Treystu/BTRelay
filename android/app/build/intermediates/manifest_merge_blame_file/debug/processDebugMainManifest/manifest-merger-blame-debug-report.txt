@@ -18,129 +18,163 @@
 13        android:required="false" />
 13-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:3:62-86
 14
-15    <!-- Legacy (API <31) -->
-16    <uses-permission android:name="android.permission.BLUETOOTH" />
-16-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:3-65
-16-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:20-63
-17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-17-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:3-71
-17-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:20-69
+15    <!-- Network -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:3-64
+16-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:6:20-62
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:3-76
+17-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:7:20-74
 18
-19    <!-- API 31+ runtime -->
-20    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-20-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:3-75
-20-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:20-73
-21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-21-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:3-73
-21-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:20-71
-22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-22-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:13:3-74
-22-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:13:20-72
-23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-23-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:3-74
-23-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:20-72
-24
-25    <permission
-25-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-26        android:name="com.example.relay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-26-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-27        android:protectionLevel="signature" />
-27-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
-28
-29    <uses-permission android:name="com.example.relay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-29-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-29-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-30
-31    <application
-31-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:3-27:17
-32        android:allowBackup="false"
-32-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:16-43
-33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
-34        android:debuggable="true"
-35        android:extractNativeLibs="false"
-36        android:usesCleartextTraffic="false" >
-36-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:44-80
-37        <service
-37-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:17:5-20:33
-38            android:name="com.example.relay.RelayBleService"
-38-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:18:7-38
-39            android:exported="false"
-39-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:20:7-31
-40            android:foregroundServiceType="connectedDevice|dataSync" />
-40-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:19:7-63
-41
-42        <activity
-42-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:21:5-26:16
-43            android:name="com.example.relay.MainActivity"
-43-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:21:15-43
-44            android:exported="true" >
-44-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:21:44-67
-45            <intent-filter>
-45-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:22:7-25:23
-46                <action android:name="android.intent.action.MAIN" />
-46-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:9-60
-46-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:17-58
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:9-68
-48-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:19-66
-49            </intent-filter>
-50        </activity>
-51
-52        <provider
-52-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-53            android:name="androidx.startup.InitializationProvider"
-53-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
-54            android:authorities="com.example.relay.androidx-startup"
-54-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
-55            android:exported="false" >
-55-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
-56            <meta-data
-56-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-57-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-58                android:value="androidx.startup" />
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-59        </provider>
+19    <!-- Bluetooth pre-31 -->
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:3-65
+20-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:10:20-63
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+21-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:3-71
+21-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:11:20-69
+22
+23    <!-- Bluetooth 31+ -->
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+24-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:3-75
+24-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:14:20-73
+25    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+25-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:15:3-73
+25-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:15:20-71
+26    <uses-permission
+26-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:3-17:55
+27        android:name="android.permission.BLUETOOTH_SCAN"
+27-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:16:20-68
+28        android:usesPermissionFlags="neverForLocation" />
+28-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:17:7-53
+29
+30    <!-- Location needed for scan on API 26–30 -->
+31    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+31-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:20:3-76
+31-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:20:20-74
+32
+33    <!-- Foreground services -->
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:3-74
+34-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:23:20-72
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+35-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:3-91
+35-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:24:20-89
+36
+37    <!-- Notifications (33+) -->
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+38-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:27:3-74
+38-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:27:20-72
+39
+40    <permission
+40-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+41        android:name="com.example.relay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.example.relay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:3-44:17
+47        android:allowBackup="false"
+47-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:16-43
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.12.0] /Users/christymaxwell/.gradle/caches/transforms-4/a6e71e6a6802c2d2d4d205ebcf186372/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:usesCleartextTraffic="false" >
+51-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:29:44-80
+52        <service
+52-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:30:5-33:33
+53            android:name="com.example.relay.RelayBleService"
+53-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:31:7-38
+54            android:exported="false"
+54-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:33:7-31
+55            android:foregroundServiceType="connectedDevice" />
+55-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:32:7-54
+56        <service
+56-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:34:5-37:33
+57            android:name="com.example.relay.CentralBackhaulService"
+57-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:35:7-45
+58            android:exported="false"
+58-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:37:7-31
+59            android:foregroundServiceType="connectedDevice" />
+59-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:36:7-54
 60
-61        <receiver
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-62            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-63            android:directBootAware="false"
-63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-64            android:enabled="true"
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-65            android:exported="true"
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-66            android:permission="android.permission.DUMP" >
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-68                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-69            </intent-filter>
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-71                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-72            </intent-filter>
-73            <intent-filter>
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-74                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-75            </intent-filter>
-76            <intent-filter>
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-77                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-78            </intent-filter>
-79        </receiver>
-80    </application>
-81
-82</manifest>
+61        <activity
+61-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:38:5-43:16
+62            android:name="com.example.relay.MainActivity"
+62-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:38:15-43
+63            android:exported="true" >
+63-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:38:44-67
+64            <intent-filter>
+64-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:39:7-42:23
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:40:9-60
+65-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:40:17-58
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:41:9-68
+67-->/Users/christymaxwell/Desktop/Luke_Stuff/BLE_Relay/mobile-relay/android/app/src/main/AndroidManifest.xml:41:19-66
+68            </intent-filter>
+69        </activity>
+70
+71        <provider
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+73            android:authorities="com.example.relay.androidx-startup"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <receiver
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+81            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+82            android:directBootAware="false"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+83            android:enabled="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+84            android:exported="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+85            android:permission="android.permission.DUMP" >
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+87                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+90                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+93                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+96                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/christymaxwell/.gradle/caches/transforms-4/36e4a98f49ab1de83fc302f80ca0f0f3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+97            </intent-filter>
+98        </receiver>
+99    </application>
+100
+101</manifest>
