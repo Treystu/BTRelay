@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+id btnSave
+id btnStart
+id btnStop
+id burst
+id cap
+id rate
+id secret
+layout activity_main
+string app_name
+string save
+string start_service
+string stop_service
