@@ -1,0 +1,13 @@
+# Ignore Android build artifacts and local config
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+
+# Ignore iOS build artifacts
+ios/build/
+ios/DerivedData/
+
+# Misc
+.DS_Store
